@@ -10,7 +10,7 @@ Python scripts developed to collect, analyse, summarise logs/feeds or for automa
 
   Input the url, credentials and other details at the beginning and run the script.
 
-  Dependencies:
+  _Dependencies:_
   1. libtaxii
   2. xml.etree.ElementTree
   3. os
@@ -28,7 +28,7 @@ Python scripts developed to collect, analyse, summarise logs/feeds or for automa
   
   Input the url, credentials and other details at the beginning and run the script.
   
-  Dependencies:
+  _Dependencies:_
   1. taxii2client.v20
   2. os
   3. datetime
@@ -42,7 +42,7 @@ Python scripts developed to collect, analyse, summarise logs/feeds or for automa
 
   If your logs do not have .gz extention, replace gzip.open on line #22 with open.
   
-  Dependencies:
+  _Dependencies:_
   1. json
   2. gzip
   3. os
@@ -53,3 +53,9 @@ Python scripts developed to collect, analyse, summarise logs/feeds or for automa
   A python script to export data from sqlite db files to csv files.
 
   The script reads rows from .db sqlite files without authentication.
+
+  _Dependencies:_
+  1. sqlite3
+  2. csv
+  3. os
+  4. datetime
