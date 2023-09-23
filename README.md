@@ -10,7 +10,7 @@ Python scripts developed to collect, analyse, summarise logs/feeds or for automa
 
     Input the url, credentials and other details at the beginning and run the script.
 
-    _Dependencies:_
+    Dependencies:
     1. libtaxii
     2. xml.etree.ElementTree
     3. os
@@ -28,7 +28,7 @@ Python scripts developed to collect, analyse, summarise logs/feeds or for automa
   
     Input the url, credentials and other details at the beginning and run the script.
   
-    _Dependencies:_
+    Dependencies:
     1. taxii2client.v20
     2. os
     3. datetime
