@@ -35,3 +35,15 @@ Python scripts developed to collect, analyse, summarise logs/feeds or for automa
     4. requests
     5. json
     6. datetime
+
+**III. summaryJsonGz.py:**
+
+    A python script to read json data from json files and summarize them based on fields.
+
+    If your logs do not have .gz extention, replace gzip.open on line #22 with open.
+  
+    Dependencies:
+    1. json
+    2. gzip
+    3. os
+    4. collections
