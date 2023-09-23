@@ -2,6 +2,7 @@
 Python scripts developed for logs/threat feeds integration or for automating stuff
 
 **I. taxii2client.v20.py**
+
   A python script to poll the ctix/taxii feeds using taxii2client.v20 module
   
   _Dependencies:_
