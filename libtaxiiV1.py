@@ -22,8 +22,8 @@ taxiiDomain = 'ti-certin.in'
 taxiiDiscoveryUrl='/api/v1/taxii/taxii-discovery-service/'
 
 # Cerdentials received from CERT-IN
-username = 'aqxwsk'
-password = '2aGM9i9Af#@4'
+username = 'user'
+password = 'pass'
 
 # Number of days past feeds you want to pull
 days = 90
