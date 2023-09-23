@@ -1,5 +1,5 @@
 # PythonScripts
-Python scripts developed for logs/threat feeds integration or for automating stuff
+Python scripts developed to collect, analyse, summarise logs/feeds or for automating stuff.
 
 **I. libtaxiiV1.py:**
 
