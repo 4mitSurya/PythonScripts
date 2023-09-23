@@ -16,17 +16,17 @@ path = ""
 is_https  = True
 
 # Domain name in URL without https:// OR http://
-taxiiDomain = 'ti-certin.in'
+taxiiDomain = 'example.com'
 
 # Discovery URL path ri.e URL without without https://<taxiiDomain> OR http://<taxiiDomain> 
-taxiiDiscoveryUrl='/api/v1/taxii/taxii-discovery-service/'
+taxiiDiscoveryUrl='/url/path/to/discovery/service/'
 
 # Cerdentials received from CERT-IN
 username = 'user'
 password = 'pass'
 
 # Number of days past feeds you want to pull
-days = 90
+days = 30
 
 # Interval in seconds to wait before next run
 interval = 21600
