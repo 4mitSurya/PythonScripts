@@ -47,3 +47,9 @@ Python scripts developed to collect, analyse, summarise logs/feeds or for automa
     2. gzip
     3. os
     4. collections
+
+**IV. sqliteDbToCsv.py:**
+
+    A python script to export data from sqlite db files to csv files.
+
+    The script reads rows from .db sqlite files without authentication.
