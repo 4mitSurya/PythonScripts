@@ -43,9 +43,7 @@ while True:
 
 		print("Polling IOCs for collection - %s from %s" %(collection.title,added_after))
 
-		url=baseCollectionUrl+"/%s/objects/?added_after=%s" %(collection.id,added_after)
-
-    basicAuthCreds = 'Basic '+basicAuthCreds
+		url=baseCollectionUrl+"/"+collection.id+"/objects/?added_after="+added_after
     
 		headers = {
 		'Accept': 'application/vnd.oasis.stix+json; version=2.0',
